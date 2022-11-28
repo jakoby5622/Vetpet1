@@ -71,14 +71,10 @@
         <activity
             android:name=".Editar"
             android:exported="false" />
+
         <activity
             android:name=".Actividadgiroscopio"
             android:exported="false" />
-        <activity
-            android:name=".MainAsynTask"
-            android:exported="false" />
-
-
         <activity
             android:name=".Splash"
             android:exported="true">

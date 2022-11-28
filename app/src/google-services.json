@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "586924564487",
+    "project_id": "vetpet-f4977",
+    "storage_bucket": "vetpet-f4977.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586924564487:android:f849b0ad796a2583a94aa2",
+        "android_client_info": {
+          "package_name": "com.santotomas.vetpet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586924564487-mkgihc9edn4su3lr9elds0u0u08eib2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTNe8ERx6L5c2uXKEq73qjBpQoEW5ystg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586924564487-mkgihc9edn4su3lr9elds0u0u08eib2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

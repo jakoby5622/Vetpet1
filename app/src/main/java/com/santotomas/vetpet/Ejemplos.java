@@ -27,7 +27,7 @@ public class Ejemplos extends AppCompatActivity implements SensorEventListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ejemplos);
 
-        ln = (LinearLayout) findViewById(R.id.linear);
+
         tv = (TextView) findViewById(R.id.textView5);
 
         sm=(SensorManager)getSystemService(SENSOR_SERVICE);
@@ -83,24 +83,11 @@ public class Ejemplos extends AppCompatActivity implements SensorEventListener {
         Intent inte8 = new Intent(this,Giroscopio.class);
         startActivity(inte8);
     }
-    public void IrAsynk (View MainAsynTask){
-        Intent inte10 = new Intent(this,MainAsynTask.class);
-        startActivity(inte10);
-    }
+
 
     @Override
     public void onSensorChanged(SensorEvent event) {
-        String texto = String.valueOf(event.values[0]);
-        tv.setText(texto);
-        float valor = Float.parseFloat(texto);
-        if(valor == 0 )
-        {
-            ln.setBackgroundColor(Color.BLUE);
 
-        }else{
-
-            ln.setBackgroundColor(Color.MAGENTA);
-        }
     }
 
     @Override
